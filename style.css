@@ -1,0 +1,101 @@
+@font-face {
+    	font-family:risk; 
+    	src: url(risk.ttf)
+}
+body{font-family:risk; margin: 0;
+background-color: black;}
+.ava-img {
+	width: 25vh;
+	height: 25vh;
+	margin-left: 100px;
+	background-image: url(pan.png);
+	background-position: center;
+	transition: 0.4s;
+	background-size: 100% 100%;
+	margin-top: 50px;
+	}
+.ava-img:hover {
+	background-image: url(pan2.jpg);
+	transform: scale(1.05);
+	}
+.mar{
+	margin-left: 30px;
+	margin-top: 80px;
+}
+.font{
+	margin-right: 60px;
+	color: white;
+}
+.disc{
+	font-size: 30px;
+	color: white;
+}
+.main{
+	color: #614194;
+}
+.skills{
+	text-align:  center;
+}
+.kill{
+	color: #614194;
+	font-size: 48px;
+}
+.ml{
+	margin-top: 80px;
+}
+.con{
+	color: #614194;
+	font-size: 50px;
+	padding-top: 10px;
+}
+.gt{
+	background-image: url(github.png);
+	background-size: 100% 100%;
+	width: 50px;
+	height:50px;
+	padding-top: 10px;
+}
+.ins{
+	background-image: url(insta.png);
+	background-size: 100% 100%;
+	width: 50px;
+	height: 50px;
+	padding-top: 10px;
+}
+.vk{
+	background-image: url(vk.png);
+	background-size: 100% 100%;
+	width: 50px;
+	height: 50px;
+	padding-top: 10px;
+}
+.gt:hover {
+	transform: scale(1.05);
+}
+.ins:hover {
+	transform: scale(1.05);
+}
+.vk:hover {
+	transform: scale(1.05);
+}
+.backgroungimg{
+	background-image: url(domokoloriver.jpg);
+	background-size: 100% 100%;
+	height: 1080px;
+
+}
+.op{
+	opacity: 90%;
+}
+.fnaf{
+	background-image: url(fnaf.png);
+	background-size: 100% 100%;
+	height: 300px;
+	width: 450px;
+}
+.youtube{
+	background-image: url(youtube.png);
+	background-size: 100% 100%;
+	height: 300px;
+	width: 450px;
+}
